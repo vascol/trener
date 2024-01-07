@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trener/static/css/main.63c1e3d6.css",
-    "main.js": "/trener/static/js/main.8f05927b.js",
+    "main.css": "/trener/static/css/main.1d7ac32f.css",
+    "main.js": "/trener/static/js/main.cf1ea570.js",
     "static/media/cli3.png": "/trener/static/media/cli3.735edeb2bd3dbdfe86c7.png",
     "index.html": "/trener/index.html",
-    "main.63c1e3d6.css.map": "/trener/static/css/main.63c1e3d6.css.map",
-    "main.8f05927b.js.map": "/trener/static/js/main.8f05927b.js.map"
+    "main.1d7ac32f.css.map": "/trener/static/css/main.1d7ac32f.css.map",
+    "main.cf1ea570.js.map": "/trener/static/js/main.cf1ea570.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c1e3d6.css",
-    "static/js/main.8f05927b.js"
+    "static/css/main.1d7ac32f.css",
+    "static/js/main.cf1ea570.js"
   ]
 }
