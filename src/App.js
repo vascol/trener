@@ -6,33 +6,33 @@ import { Top } from "./components/Top"
 
 import MenuIcon from "@mui/icons-material/Menu"
 import { Social } from "./components/Social"
+import SimpleDrawer from "./components/Drawer"
 
 const App = () => {
-  const [open, setOpen] = React.useState(false)
+  const [isEng, setIsEng] = React.useState(false)
 
   return (
     <div className="App">
       <div className="inner">
         <div className="menu">
-          <MenuIcon onClick={() => setOpen(true)} sx={{ color: "#b0b8c4" }} />
+          <SimpleDrawer setIsEng={setIsEng} />
         </div>
-        <Top />
+        <Top isEng={isEng} />
         <div className="serv_divider"></div>
         <div className="content">
-          <BasicAccordion />
+          <BasicAccordion isEng={isEng} />
         </div>
         <div className="invite">
           <img src="https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-          <h2>Онлайн супровід</h2>
-          <h3>Заповнити анкету для співпраці</h3>
+          <h2>{!isEng ? "Онлайн супровід" : "Online support"}</h2>
+          <h3>
+            {!isEng
+              ? "Заповнити анкету для співпраці"
+              : "Fill out the questionnaire for cooperation"}
+          </h3>
         </div>
         <div className="serv_divider"></div>
         <Social />
-        {/* {open && (
-          <Modal isOpen={open} setOpen={setOpen}>
-            <h1>hello</h1>
-          </Modal>
-        )} */}
       </div>
     </div>
   )

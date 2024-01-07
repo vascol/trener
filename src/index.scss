@@ -134,7 +134,7 @@ body {
   width: 322px;
   border-radius: 10px;
 
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -146,7 +146,7 @@ body {
     }
 
     to {
-      transform: translateY(2px);
+      transform: translateY(3px);
       // transform: scale(1.01);
     }
   }
@@ -198,6 +198,17 @@ body {
     background-color: #fff;
     width: 160px;
     height: 160px;
+  }
+}
+
+.drawer {
+  &__title {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
   }
 }
 

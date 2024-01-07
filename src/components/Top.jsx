@@ -4,12 +4,20 @@ import img from "../assets/cli3.png"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import TelegramIcon from "@mui/icons-material/Telegram"
 
-export const Top = () => {
+export const Top = ({ isEng }) => {
   return (
     <div className="top">
       <img src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/8347d13cd623edd2976c8491e1678f2e~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1704744000&x-signature=crwzCzWsKfnvWa3Uorb4nvNdcoY%3D" />
-      <h1>Богдан Батькович | Персональні тренування</h1>
-      <h2>Тренер по бодібілдінгу та фітнесу</h2>
+      <h1>
+        {isEng
+          ? "Bogdan Batkovich | Personal training"
+          : "Богдан Батькович | Персональні тренування"}
+      </h1>
+      <h2>
+        {isEng
+          ? "Bodybuilding and fitness trainer"
+          : "Тренер по бодібілдінгу та фітнесу"}
+      </h2>
       <div className="top__social">
         <a href="https://www.instagram.com">
           <InstagramIcon fontSize="large" sx={{ color: "#e5eaf2" }} />
