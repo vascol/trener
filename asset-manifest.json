@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trener/static/css/main.63c1e3d6.css",
+    "main.js": "/trener/static/js/main.8f05927b.js",
+    "static/media/cli3.png": "/trener/static/media/cli3.735edeb2bd3dbdfe86c7.png",
+    "index.html": "/trener/index.html",
+    "main.63c1e3d6.css.map": "/trener/static/css/main.63c1e3d6.css.map",
+    "main.8f05927b.js.map": "/trener/static/js/main.8f05927b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c1e3d6.css",
+    "static/js/main.8f05927b.js"
+  ]
+}
